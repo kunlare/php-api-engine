@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Kunlare\PhpCrudApi\Auth;
+namespace Kunlare\PhpApiEngine\Auth;
 
-use Kunlare\PhpCrudApi\Config\Config;
-use Kunlare\PhpCrudApi\Database\Connection;
-use Kunlare\PhpCrudApi\Exceptions\AuthException;
+use Kunlare\PhpApiEngine\Config\Config;
+use Kunlare\PhpApiEngine\Database\Connection;
+use Kunlare\PhpApiEngine\Exceptions\AuthException;
 
 /**
  * Factory for selecting authentication strategy based on configuration.

@@ -2,23 +2,23 @@
 
 declare(strict_types=1);
 
-namespace Kunlare\PhpCrudApi\Api;
+namespace Kunlare\PhpApiEngine\Api;
 
-use Kunlare\PhpCrudApi\Api\Middleware\AuthMiddleware;
-use Kunlare\PhpCrudApi\Api\Middleware\CorsMiddleware;
-use Kunlare\PhpCrudApi\Auth\AuthManager;
-use Kunlare\PhpCrudApi\Config\Config;
-use Kunlare\PhpCrudApi\Crud\AuthController;
-use Kunlare\PhpCrudApi\Crud\CrudController;
-use Kunlare\PhpCrudApi\Crud\QueueController;
-use Kunlare\PhpCrudApi\Crud\SchemaController;
-use Kunlare\PhpCrudApi\Crud\UserController;
-use Kunlare\PhpCrudApi\Database\Connection;
-use Kunlare\PhpCrudApi\Ui\AdminPanel;
-use Kunlare\PhpCrudApi\Exceptions\AuthException;
-use Kunlare\PhpCrudApi\Exceptions\DatabaseException;
-use Kunlare\PhpCrudApi\Exceptions\NotFoundException;
-use Kunlare\PhpCrudApi\Exceptions\ValidationException;
+use Kunlare\PhpApiEngine\Api\Middleware\AuthMiddleware;
+use Kunlare\PhpApiEngine\Api\Middleware\CorsMiddleware;
+use Kunlare\PhpApiEngine\Auth\AuthManager;
+use Kunlare\PhpApiEngine\Config\Config;
+use Kunlare\PhpApiEngine\Crud\AuthController;
+use Kunlare\PhpApiEngine\Crud\CrudController;
+use Kunlare\PhpApiEngine\Crud\QueueController;
+use Kunlare\PhpApiEngine\Crud\SchemaController;
+use Kunlare\PhpApiEngine\Crud\UserController;
+use Kunlare\PhpApiEngine\Database\Connection;
+use Kunlare\PhpApiEngine\Ui\AdminPanel;
+use Kunlare\PhpApiEngine\Exceptions\AuthException;
+use Kunlare\PhpApiEngine\Exceptions\DatabaseException;
+use Kunlare\PhpApiEngine\Exceptions\NotFoundException;
+use Kunlare\PhpApiEngine\Exceptions\ValidationException;
 use Throwable;
 
 /**

@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Kunlare\PhpCrudApi\Tests\Unit\Auth;
+namespace Kunlare\PhpApiEngine\Tests\Unit\Auth;
 
-use Kunlare\PhpCrudApi\Auth\JwtAuth;
-use Kunlare\PhpCrudApi\Config\Config;
-use Kunlare\PhpCrudApi\Database\Connection;
-use Kunlare\PhpCrudApi\Tests\TestCase;
+use Kunlare\PhpApiEngine\Auth\JwtAuth;
+use Kunlare\PhpApiEngine\Config\Config;
+use Kunlare\PhpApiEngine\Database\Connection;
+use Kunlare\PhpApiEngine\Tests\TestCase;
 
 class JwtAuthTest extends TestCase
 {

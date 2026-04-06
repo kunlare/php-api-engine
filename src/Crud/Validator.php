@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Kunlare\PhpCrudApi\Crud;
+namespace Kunlare\PhpApiEngine\Crud;
 
-use Kunlare\PhpCrudApi\Database\Connection;
-use Kunlare\PhpCrudApi\Exceptions\ValidationException;
+use Kunlare\PhpApiEngine\Database\Connection;
+use Kunlare\PhpApiEngine\Exceptions\ValidationException;
 
 /**
  * Input validation for API requests.

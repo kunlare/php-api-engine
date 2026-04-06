@@ -28,10 +28,10 @@ if (!$autoloaded) {
     exit(1);
 }
 
-use Kunlare\PhpCrudApi\Config\Config;
-use Kunlare\PhpCrudApi\Database\Connection;
-use Kunlare\PhpCrudApi\Bootstrap;
-use Kunlare\PhpCrudApi\Auth\JwtAuth;
+use Kunlare\PhpApiEngine\Config\Config;
+use Kunlare\PhpApiEngine\Database\Connection;
+use Kunlare\PhpApiEngine\Bootstrap;
+use Kunlare\PhpApiEngine\Auth\JwtAuth;
 
 // --- Helper functions ---
 

@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Kunlare\PhpCrudApi\Tests\Unit\Crud;
+namespace Kunlare\PhpApiEngine\Tests\Unit\Crud;
 
-use Kunlare\PhpCrudApi\Crud\Validator;
-use Kunlare\PhpCrudApi\Exceptions\ValidationException;
-use Kunlare\PhpCrudApi\Tests\TestCase;
+use Kunlare\PhpApiEngine\Crud\Validator;
+use Kunlare\PhpApiEngine\Exceptions\ValidationException;
+use Kunlare\PhpApiEngine\Tests\TestCase;
 
 class ValidatorTest extends TestCase
 {

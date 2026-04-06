@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Kunlare\PhpCrudApi\Tests;
+namespace Kunlare\PhpApiEngine\Tests;
 
-use Kunlare\PhpCrudApi\Config\Config;
+use Kunlare\PhpApiEngine\Config\Config;
 use PHPUnit\Framework\TestCase as BaseTestCase;
 
 /**

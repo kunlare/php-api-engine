@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Kunlare\PhpCrudApi\Tests\Unit\Crud;
+namespace Kunlare\PhpApiEngine\Tests\Unit\Crud;
 
-use Kunlare\PhpCrudApi\Exceptions\ValidationException;
-use Kunlare\PhpCrudApi\Tests\TestCase;
+use Kunlare\PhpApiEngine\Exceptions\ValidationException;
+use Kunlare\PhpApiEngine\Tests\TestCase;
 
 class CrudControllerTest extends TestCase
 {
@@ -36,7 +36,7 @@ class CrudControllerTest extends TestCase
         $this->expectException(ValidationException::class);
 
         // We test via reflection or by trying to use the validator directly
-        $validator = new \Kunlare\PhpCrudApi\Crud\Validator();
+        $validator = new \Kunlare\PhpApiEngine\Crud\Validator();
         // The table name validation is done in the controller
         // Test the regex pattern directly
         $this->assertFalse((bool) preg_match('/^[a-zA-Z_][a-zA-Z0-9_]*$/', 'table; DROP TABLE users'));
@@ -46,10 +46,10 @@ class CrudControllerTest extends TestCase
         $this->assertFalse((bool) preg_match('/^[a-zA-Z_][a-zA-Z0-9_]*$/', 'table-name'));
 
         // Trigger the exception
-        $connection = $this->createMock(\Kunlare\PhpCrudApi\Database\Connection::class);
-        $request = $this->createMock(\Kunlare\PhpCrudApi\Api\Request::class);
+        $connection = $this->createMock(\Kunlare\PhpApiEngine\Database\Connection::class);
+        $request = $this->createMock(\Kunlare\PhpApiEngine\Api\Request::class);
 
-        $controller = new \Kunlare\PhpCrudApi\Crud\CrudController($connection, $request);
+        $controller = new \Kunlare\PhpApiEngine\Crud\CrudController($connection, $request);
         $controller->list('invalid-table-name');
     }
 }

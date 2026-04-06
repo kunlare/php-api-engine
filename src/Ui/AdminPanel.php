@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Kunlare\PhpCrudApi\Ui;
+namespace Kunlare\PhpApiEngine\Ui;
 
-use Kunlare\PhpCrudApi\Config\Config;
+use Kunlare\PhpApiEngine\Config\Config;
 
 /**
  * Admin panel SPA served as a single HTML page.

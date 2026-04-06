@@ -48,9 +48,9 @@ foreach ($envPaths as $envPath) {
     }
 }
 
-use Kunlare\PhpCrudApi\Config\Config;
-use Kunlare\PhpCrudApi\Database\Connection;
-use Kunlare\PhpCrudApi\Queue\QueueWorker;
+use Kunlare\PhpApiEngine\Config\Config;
+use Kunlare\PhpApiEngine\Database\Connection;
+use Kunlare\PhpApiEngine\Queue\QueueWorker;
 
 // Parse CLI arguments
 $options = getopt('', ['queue:', 'batch:', 'help']);

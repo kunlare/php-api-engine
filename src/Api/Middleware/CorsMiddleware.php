@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Kunlare\PhpCrudApi\Api\Middleware;
+namespace Kunlare\PhpApiEngine\Api\Middleware;
 
-use Kunlare\PhpCrudApi\Api\Request;
-use Kunlare\PhpCrudApi\Config\Config;
+use Kunlare\PhpApiEngine\Api\Request;
+use Kunlare\PhpApiEngine\Config\Config;
 
 /**
  * CORS middleware for handling cross-origin requests.

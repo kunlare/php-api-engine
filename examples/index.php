@@ -14,10 +14,10 @@ declare(strict_types=1);
 
 require_once __DIR__ . '/../vendor/autoload.php';
 
-use Kunlare\PhpCrudApi\Api\Router;
-use Kunlare\PhpCrudApi\Bootstrap;
-use Kunlare\PhpCrudApi\Config\Config;
-use Kunlare\PhpCrudApi\Database\Connection;
+use Kunlare\PhpApiEngine\Api\Router;
+use Kunlare\PhpApiEngine\Bootstrap;
+use Kunlare\PhpApiEngine\Config\Config;
+use Kunlare\PhpApiEngine\Database\Connection;
 
 // Load configuration from the directory containing .env
 $config = new Config(__DIR__);

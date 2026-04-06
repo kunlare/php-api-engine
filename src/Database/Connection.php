@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Kunlare\PhpCrudApi\Database;
+namespace Kunlare\PhpApiEngine\Database;
 
-use Kunlare\PhpCrudApi\Config\Config;
-use Kunlare\PhpCrudApi\Exceptions\DatabaseException;
+use Kunlare\PhpApiEngine\Config\Config;
+use Kunlare\PhpApiEngine\Exceptions\DatabaseException;
 use PDO;
 use PDOException;
 use PDOStatement;

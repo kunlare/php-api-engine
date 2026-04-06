@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Kunlare\PhpCrudApi\Config;
+namespace Kunlare\PhpApiEngine\Config;
 
 use Dotenv\Dotenv;
 use RuntimeException;

@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Kunlare\PhpCrudApi\Queue;
+namespace Kunlare\PhpApiEngine\Queue;
 
-use Kunlare\PhpCrudApi\Config\Config;
-use Kunlare\PhpCrudApi\Database\Connection;
+use Kunlare\PhpApiEngine\Config\Config;
+use Kunlare\PhpApiEngine\Database\Connection;
 
 /**
  * Queue worker that processes messages from inbound (handler) and outbound (push) queues.

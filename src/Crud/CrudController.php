@@ -2,15 +2,15 @@
 
 declare(strict_types=1);
 
-namespace Kunlare\PhpCrudApi\Crud;
+namespace Kunlare\PhpApiEngine\Crud;
 
-use Kunlare\PhpCrudApi\Api\Request;
-use Kunlare\PhpCrudApi\Api\Response;
-use Kunlare\PhpCrudApi\Database\Connection;
-use Kunlare\PhpCrudApi\Database\QueryBuilder;
-use Kunlare\PhpCrudApi\Exceptions\DatabaseException;
-use Kunlare\PhpCrudApi\Exceptions\NotFoundException;
-use Kunlare\PhpCrudApi\Exceptions\ValidationException;
+use Kunlare\PhpApiEngine\Api\Request;
+use Kunlare\PhpApiEngine\Api\Response;
+use Kunlare\PhpApiEngine\Database\Connection;
+use Kunlare\PhpApiEngine\Database\QueryBuilder;
+use Kunlare\PhpApiEngine\Exceptions\DatabaseException;
+use Kunlare\PhpApiEngine\Exceptions\NotFoundException;
+use Kunlare\PhpApiEngine\Exceptions\ValidationException;
 
 /**
  * Generic CRUD controller for any database table.

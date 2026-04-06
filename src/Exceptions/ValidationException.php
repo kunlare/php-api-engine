@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Kunlare\PhpCrudApi\Exceptions;
+namespace Kunlare\PhpApiEngine\Exceptions;
 
 use Exception;
 use Throwable;

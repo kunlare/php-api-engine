@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Kunlare\PhpCrudApi\Api;
+namespace Kunlare\PhpApiEngine\Api;
 
 /**
  * JSON response builder with standardized format.

@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Kunlare\PhpCrudApi\Tests\Unit\Database;
+namespace Kunlare\PhpApiEngine\Tests\Unit\Database;
 
-use Kunlare\PhpCrudApi\Database\Connection;
-use Kunlare\PhpCrudApi\Database\QueryBuilder;
-use Kunlare\PhpCrudApi\Exceptions\DatabaseException;
-use Kunlare\PhpCrudApi\Tests\TestCase;
+use Kunlare\PhpApiEngine\Database\Connection;
+use Kunlare\PhpApiEngine\Database\QueryBuilder;
+use Kunlare\PhpApiEngine\Exceptions\DatabaseException;
+use Kunlare\PhpApiEngine\Tests\TestCase;
 use PDO;
 use PDOStatement;
 use ReflectionClass;

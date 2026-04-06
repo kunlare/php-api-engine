@@ -44,12 +44,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Kunlare\\PhpCrudApi\\": "src/"
+            "Kunlare\\PhpApiEngine\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Kunlare\\PhpCrudApi\\Tests\\": "tests/"
+            "Kunlare\\PhpApiEngine\\Tests\\": "tests/"
         }
     },
     "bin": [

@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace Kunlare\PhpCrudApi\Api\Middleware;
+namespace Kunlare\PhpApiEngine\Api\Middleware;
 
-use Kunlare\PhpCrudApi\Api\Request;
-use Kunlare\PhpCrudApi\Api\Response;
-use Kunlare\PhpCrudApi\Auth\AuthManager;
-use Kunlare\PhpCrudApi\Config\Config;
-use Kunlare\PhpCrudApi\Exceptions\AuthException;
+use Kunlare\PhpApiEngine\Api\Request;
+use Kunlare\PhpApiEngine\Api\Response;
+use Kunlare\PhpApiEngine\Auth\AuthManager;
+use Kunlare\PhpApiEngine\Config\Config;
+use Kunlare\PhpApiEngine\Exceptions\AuthException;
 
 /**
  * Authentication middleware that validates requests before routing.

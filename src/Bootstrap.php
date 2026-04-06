@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Kunlare\PhpCrudApi;
+namespace Kunlare\PhpApiEngine;
 
-use Kunlare\PhpCrudApi\Config\Config;
-use Kunlare\PhpCrudApi\Database\Connection;
-use Kunlare\PhpCrudApi\Exceptions\DatabaseException;
+use Kunlare\PhpApiEngine\Config\Config;
+use Kunlare\PhpApiEngine\Database\Connection;
+use Kunlare\PhpApiEngine\Exceptions\DatabaseException;
 
 /**
  * Bootstraps system tables (users, api_keys, queues, queue_messages) on first run.

@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Kunlare\PhpCrudApi\Api;
+namespace Kunlare\PhpApiEngine\Api;
 
 /**
  * HTTP request wrapper providing access to request data.

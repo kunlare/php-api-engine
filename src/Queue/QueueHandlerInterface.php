@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Kunlare\PhpCrudApi\Queue;
+namespace Kunlare\PhpApiEngine\Queue;
 
 /**
  * Interface for queue message handlers.

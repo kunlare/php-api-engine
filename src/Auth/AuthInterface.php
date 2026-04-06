@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Kunlare\PhpCrudApi\Auth;
+namespace Kunlare\PhpApiEngine\Auth;
 
-use Kunlare\PhpCrudApi\Api\Request;
+use Kunlare\PhpApiEngine\Api\Request;
 
 /**
  * Interface for authentication strategies.

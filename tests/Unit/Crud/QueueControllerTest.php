@@ -2,16 +2,16 @@
 
 declare(strict_types=1);
 
-namespace Kunlare\PhpCrudApi\Tests\Unit\Crud;
+namespace Kunlare\PhpApiEngine\Tests\Unit\Crud;
 
-use Kunlare\PhpCrudApi\Api\Request;
-use Kunlare\PhpCrudApi\Config\Config;
-use Kunlare\PhpCrudApi\Crud\QueueController;
-use Kunlare\PhpCrudApi\Database\Connection;
-use Kunlare\PhpCrudApi\Exceptions\AuthException;
-use Kunlare\PhpCrudApi\Exceptions\NotFoundException;
-use Kunlare\PhpCrudApi\Exceptions\ValidationException;
-use Kunlare\PhpCrudApi\Tests\TestCase;
+use Kunlare\PhpApiEngine\Api\Request;
+use Kunlare\PhpApiEngine\Config\Config;
+use Kunlare\PhpApiEngine\Crud\QueueController;
+use Kunlare\PhpApiEngine\Database\Connection;
+use Kunlare\PhpApiEngine\Exceptions\AuthException;
+use Kunlare\PhpApiEngine\Exceptions\NotFoundException;
+use Kunlare\PhpApiEngine\Exceptions\ValidationException;
+use Kunlare\PhpApiEngine\Tests\TestCase;
 
 class QueueControllerTest extends TestCase
 {
