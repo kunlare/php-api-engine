@@ -99,11 +99,11 @@ Replace your `composer.json` with:
     "repositories": [
         {
             "type": "vcs",
-            "url": "https://github.com/lemmartikun/php-crud-api.git"
+            "url": "https://github.com/kunlare/php-api-engine.git"
         }
     ],
     "require": {
-        "kunlare/php-crud-api": "dev-main"
+        "kunlare/php-api-engine": "dev-main"
     },
     "minimum-stability": "dev",
     "prefer-stable": true
@@ -119,11 +119,11 @@ Replace your `composer.json` with:
     "repositories": [
         {
             "type": "path",
-            "url": "/full/path/to/your/php-crud-api"
+            "url": "/full/path/to/your/php-api-engine"
         }
     ],
     "require": {
-        "kunlare/php-crud-api": "*"
+        "kunlare/php-api-engine": "*"
     }
 }
 ```
@@ -137,7 +137,7 @@ composer install
 #### Step 3: Create the .env file
 
 ```bash
-cp vendor/kunlare/php-crud-api/examples/.env.example .env
+cp vendor/kunlare/php-api-engine/examples/.env.example .env
 ```
 
 Edit `.env` with your database credentials:

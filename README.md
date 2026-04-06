@@ -30,7 +30,7 @@ A framework-agnostic RESTful CRUD API generator for MySQL/MariaDB with multi-mod
 ## Installation
 
 ```bash
-composer require kunlare/php-crud-api
+composer require kunlare/php-api-engine
 ```
 
 ## Quick Start
@@ -40,7 +40,7 @@ composer require kunlare/php-crud-api
 Copy the example configuration and edit it:
 
 ```bash
-cp vendor/kunlare/php-crud-api/examples/.env.example .env
+cp vendor/kunlare/php-api-engine/examples/.env.example .env
 ```
 
 Edit `.env` with your database credentials:
