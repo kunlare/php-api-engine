@@ -1,0 +1,69 @@
+{
+    "name": "kunlare/php-crud-api",
+    "description": "Framework-agnostic RESTful CRUD API generator for MySQL/MariaDB with multi-mode authentication (Basic, API Key, JWT)",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "crud",
+        "rest",
+        "api",
+        "mysql",
+        "mariadb",
+        "jwt",
+        "authentication",
+        "restful",
+        "php",
+        "pdo"
+    ],
+    "homepage": "https://github.com/kunlare/php-crud-api",
+    "support": {
+        "issues": "https://github.com/kunlare/php-crud-api/issues",
+        "docs": "https://github.com/kunlare/php-crud-api#readme",
+        "source": "https://github.com/kunlare/php-crud-api"
+    },
+    "authors": [
+        {
+            "name": "Kunlare",
+            "email": "kunlare.dev@gmail.com",
+            "homepage": "https://github.com/kunlare"
+        }
+    ],
+    "require": {
+        "php": "^8.1",
+        "ext-pdo": "*",
+        "ext-json": "*",
+        "vlucas/phpdotenv": "^5.6",
+        "firebase/php-jwt": "^7.0"
+    },
+    "suggest": {
+        "ext-curl": "Required for push delivery (webhook) queues"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10.5",
+        "phpstan/phpstan": "^1.10"
+    },
+    "autoload": {
+        "psr-4": {
+            "Kunlare\\PhpCrudApi\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Kunlare\\PhpCrudApi\\Tests\\": "tests/"
+        }
+    },
+    "bin": [
+        "bin/setup.php",
+        "bin/queue-worker.php"
+    ],
+    "scripts": {
+        "test": "phpunit",
+        "analyse": "phpstan analyse src --level=8",
+        "setup": "php bin/setup.php"
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
