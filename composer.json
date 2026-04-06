@@ -1,5 +1,5 @@
 {
-    "name": "kunlare/php-crud-api",
+    "name": "kunlare/php-api-engine",
     "description": "Framework-agnostic RESTful CRUD API generator for MySQL/MariaDB with multi-mode authentication (Basic, API Key, JWT)",
     "type": "library",
     "license": "MIT",
@@ -15,11 +15,11 @@
         "php",
         "pdo"
     ],
-    "homepage": "https://github.com/kunlare/php-crud-api",
+    "homepage": "https://github.com/kunlare/php-api-engine",
     "support": {
-        "issues": "https://github.com/kunlare/php-crud-api/issues",
-        "docs": "https://github.com/kunlare/php-crud-api#readme",
-        "source": "https://github.com/kunlare/php-crud-api"
+        "issues": "https://github.com/kunlare/php-api-engine/issues",
+        "docs": "https://github.com/kunlare/php-api-engine#readme",
+        "source": "https://github.com/kunlare/php-api-engine"
     },
     "authors": [
         {
